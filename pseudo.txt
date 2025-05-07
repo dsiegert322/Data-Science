@@ -1,0 +1,82 @@
+Scenario 1: Algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that was entered
+
+Ask user to enter positive number
+If not zero value, repeat algorithm 
+If user enter a 0 value
+Output largest numbers entered
+
+Request user to enter "positive number” (0 to stop)
+Get number
+
+If number is not not equal to 0
+	Request user to enter “positive number"
+	store largest_number entered for later output
+
+If number is equal to 0
+	Display largest number entered is: largest_number
+	  
+
+Scenario 2: Algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently the algorithm should print out first_name along with the phrase “Hello world”.
+
+1. Ask user to input name
+2. Stores name in variable called first_name
+3. Print first_name with “Hello world”
+
+Request user to input their name
+Store input as first_name
+Print first_name + “Hello World”
+
+Scenario 3: An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+1. Read arbitrary number of integers
+2. Return arithmetic average
+
+Set sum to 0  
+Set count to 0  
+
+Repeat  
+    Request user to enter an integer or "done" to stop  
+    Get input  
+
+    If input is "done"  
+        Exit loop  
+
+    Add input to sum  
+    Increase count by 1  
+
+Until input is "done"  
+
+If count > 0 then  
+    Print sum / count  
+Else  
+    Print "No numbers entered”
+
+Scenario 4: An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy
+
+1. Read grocery list
+2. Print products left to buy
+3. Input them in alphabetical order
+
+Read grocery_list from user
+Read bought_items from user
+
+Set remaining_items = grocery_list deduct bought_items
+Sort remaining_items alphabetically
+
+Print remaining_items
+
+Scenario 5: Flowchart
+
+Start
+
+Read X, Y
+
+S = X + Y
+A = S / 2 
+P = X x Y
+
+Write S, A, P
+
+Stop
+
+
